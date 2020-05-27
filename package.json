@@ -1,0 +1,19 @@
+{
+  "name": "stromdigital.no",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSC-89/stromdigital.no.git"
+  },
+  "author": "Chris Stephens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSC-89/stromdigital.no/issues"
+  },
+  "homepage": "https://github.com/CSC-89/stromdigital.no#readme"
+}

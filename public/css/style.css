@@ -1,31 +1,40 @@
 
 body {
-    background: url("../img/mildly-useful-sF0WlRsQdok-unsplash.jpg");
+    background: url("../img/henry-co-tqu0IOMaiU8-unsplash.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: "Nunito", sans-serif;
+    font-family: 'Sawarabi Gothic', sans-serif;
+
 }
 
 #main {
+    display: none;
     margin: 10% auto;
-    height: 800px;
+    min-height: 500px;
     width: 90%;
     border: 1px solid rgb(191, 191, 191);
-    background-color: rgba(233, 233, 228, 0.9);
+    background-color: rgba(218, 218, 218, 0.7);
 }
 
 .navbar {
+    position: relative;
     font-size: 20px;
     border-bottom: 2px solid grey;
 }
 
 #content {
-    border: 3px solid black;
+    
+    position: relative;
     text-align: center;
-    margin: 5px;
-    font-size: 1.5em;
+    font-size: min(max(30px, 9vw), 115px);
+}
+
+#forsiden {
+    font-family: "Julius Sans One", sans-serif;
+    color: rgb(138, 138, 138);
+    margin: 20% auto;
 }
 
 .shadowBox {

@@ -11,7 +11,19 @@ app.use(express.static("public"))
 
 //ROUTES
 app.get('/', (req, res) => {
-	res.render("home")
+	res.render("forsiden")
+})
+
+app.get('/omMeg', (req, res) => {
+	res.render("omMeg")
+})
+
+app.get('/kontakt', (req, res) => {
+	res.render("kontakt")
+})
+
+app.get('/portfolio', (req, res) => {
+	res.render("portfolio")
 })
 
 

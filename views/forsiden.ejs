@@ -1,24 +1,33 @@
 
 <%- include ('partials/header') %>
 
-<div id="main" class="container rounded-lg shadowBox">
+<div id="main1" class="container rounded-lg shadowBox">
 
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <a class="navbar-brand" href="#">Velkommen!</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="navbar-brand">Velkommen!</div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Forsiden <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Om Meg</a>
-            <a class="nav-item nav-link" href="#">Kontakt</a>
-            <a class="nav-item nav-link" href="#">Portfolio</a>
+            <a class="nav-item nav-link active" href="/">Forsiden <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="/omMeg">Om Meg</a>
+            <a class="nav-item nav-link" href="/tjenester">Tjenester</a>
+            <!-- <a class="nav-item nav-link" href="/portfolio">Portfolio</a> -->
+            <a class="nav-item nav-link" href="/kontakt">Kontakt</a>
           </div>
         </div>
       </nav>
-      <div id="content" class="container">
-          <p id="forsiden">STRØM DIGITAL</p>
+      <div id="content1" class="container">
+        <div class="row d-flex justify-content-center text-center">
+          <div id="forsiden"  class="col-12">
+            <div ><p>STRØM DIGITAL</p></div>
+            <p class="blurb col-12 col-md-4">MEDIA</p>
+            <p class="blurb col-12 col-md-4">PERFORMANCE</p>
+            <p class="blurb col-12 col-md-4">RESULTS</p>
+          </div>
+        </div>
+          
       </div>
 
 </div>

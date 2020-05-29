@@ -15,15 +15,19 @@ app.get('/', (req, res) => {
 })
 
 app.get('/omMeg', (req, res) => {
-	res.render("omMeg")
+	res.render("about")
 })
 
-app.get('/kontakt', (req, res) => {
-	res.render("kontakt")
+app.get('/tjenester', (req, res) => {
+	res.render("tjenester")
 })
 
 app.get('/portfolio', (req, res) => {
 	res.render("portfolio")
+})
+
+app.get('/kontakt', (req, res) => {
+	res.render("kontakt")
 })
 
 

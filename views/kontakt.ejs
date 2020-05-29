@@ -1,0 +1,53 @@
+
+<%- include ('partials/header') %>
+
+<div id="main2" class="container rounded-lg shadowBox">
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="navbar-brand">STRØM DIGITAL</div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="/">Forsiden 
+            <a class="nav-item nav-link" href="/omMeg">Om Meg</a> <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="/tjenester">Tjenester</a>
+            <a class="nav-item nav-link" href="/portfolio">Portfolio</a>
+            <a class="nav-item nav-link active" href="/kontakt">Kontakt</a>
+          </div>
+        </div>
+      </nav>
+      <div id="content2" class="container">
+        <div class="row d-flex justify-contents-center">
+            <div id="titleAndPic" class="col-12">
+                    <h1>KONTAKT</h1>
+                    <form id="kontaktform" action="POST">
+                        <input type="text" placeholder="Organisasjonsnavn*">
+                        <br>
+                        <input type="text" placeholder="Fornavn">
+                        <br>
+                        <input type="text" placeholder="Etternavn">
+                        <br>
+                        <input type="email" placeholder="E-post*" required>
+                        <br>
+                        <input type="text" placeholder="Telefonnumer*">
+                        <br>
+                        <textarea rows="50" cols="45" id="typeBox" placeholder="Gi en kort beskrivelse om hva du ønsker å få hjelp med."></textarea>
+                        <br>
+                        <p>* = kreves</p>
+                        <!-- <button class="btn btn-secondary" type="submit">Submit</button> -->
+                        <br>
+                        <button class="btn btn-secondary" type="submit">Submit</button>
+                    </form>
+            </div>
+
+        </div>
+        </div>
+        
+      </div>
+
+</div>
+
+
+<%- include ('partials/footer') %>

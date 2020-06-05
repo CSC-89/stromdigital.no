@@ -73,6 +73,16 @@ body {
     font-size: min(max(30px, 4vw), 35px);
 }
 
+#takkText {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 70px;
+    padding-top: 50px;
+    font-family: "Julius Sans One", sans-serif;
+    color: rgb(138, 138, 138);
+    font-size: min(max(30px, 4vw), 35px);
+}
+
 .pic {
     background: url("../img/synnePic1.png");
     width:250px;
@@ -120,4 +130,18 @@ input {
  button , .btn-secondary {
     outline: none;
 }
+
+#takkBtn {
+    margin: 30px;
+}
+
+ #tilbake {
+    margin: 50px;
+    color: white;
+ }
+
+ footer {
+     position: absolute;
+     bottom: 0;
+ }
  
